@@ -1,0 +1,99 @@
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(bg2.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.center1{
+    width: 1080px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.minhhoahoa{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+
+
+table tr th{
+    background-color: rgb(100, 99, 102, 0.8);
+}
+
+
+
+table, th, td {
+    width: 980px;
+    border: 0px solid;
+    
+}
+th, td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+
+tr:nth-child(even) {
+    background-color: rgba(197, 211, 227, 0.7);
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(157, 169, 182, 0.7);
+}
+
+
+.bin{
+    height: 20px;
+    width: 20px;
+    margin: 45%;
+    cursor: pointer;
+}
+
+.inputmakhuyenmai{
+    margin: 16px;
+    margin-left: 10px;
+    width: 400px;
+    height: 45px;
+}
+
+.buttonad{
+    background-color: rgb(205, 110, 154);
+    margin: 16px;
+    margin-right: 20px;
+    width: 100px;
+    height: 50px;
+    color: aliceblue;
+    border: 0px;
+    cursor: pointer;
+}
+
+.buttontt{
+    background-color: rgb(205, 110, 154);
+    float: right;
+    margin: 16px;
+    margin-right: 10px;
+    width: 100px;
+    height: 50px;
+    color: aliceblue;
+    border: 0px;
+    cursor: pointer;
+}
+

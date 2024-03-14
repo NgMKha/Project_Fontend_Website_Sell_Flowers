@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ Hàng</title>
+    <link rel="stylesheet" href="./themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="stylesheet"   href="./bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="./bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js" ></script>
+    <link rel="stylesheet" href="giohang.css">
+    <link rel="stylesheet" href="style-header.css">
+    
+</head>
+    <body>
+        <header id="header">
+            <nav class=" navbar navbar-expand-sm bg ">
+                <a href="trangchu.html" class="navbar-brand fs-3 ms-5 text-white">Flowers Nature</a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    <i class="fa-solid fa-bars text-white bx-md "></i>
+                </button>
+                <div class="collapse navbar-collapse ms-3" id="collapseExample">
+                    <ul class="navbar-nav ms-auto ">
+                        <li class="nav-item"><a href="trangchu.html" class="nav-link ms-2 text-white ">Trang Chủ</a></li>
+                        <li class="nav-item"><a href="bloghoa.html" class="nav-link ms-2 text-white ">Blog Hoa</a></li>
+                        <li class="nav-item"><a href="tintuc.html" class="nav-link ms-2 text-white ">Tin Tức</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white " href="sanpham.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Sản Phẩm
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="sanpham.html">Hoa tình yêu</a></li>
+                                <li><a class="dropdown-item" href="sanpham.html ">Hoa sinh nhật</a></li>
+                                <li><a class="dropdown-item" href="sanpham.html">Hoa chúc mừng</a></li>
+                                <li><a class="dropdown-item" href="sanpham.html">Mẫu hoa mới</a></li>
+                                <li><a class="dropdown-item" href="sanpham.html">Cây văn phòng</a></li>
+                                <li><a class="dropdown-item" href="sanpham.html">Lãng hoa chia buồn</a></li>
+                            </ul>
+                          </li>
+                        <li><a href="dangnhap.html" class="nav-link ms-2 text-white ">Đăng Nhập</a></li>
+                        <li><a href="dangki.html" class="nav-link ms-2 text-white ">Đăng Kí</a></li>
+                        <li><a href="lienhe.html" class="nav-link ms-2 text-white ">Liên Hệ</a></li>
+                    </ul>
+                    <!--Giỏ hàng - Tìm kiếm-->
+                    <div class="navbar navbar-expand ms-3 me-5">
+                        <a href="giohang.html"><i class="fa fa-cart-shopping text-white " ></i></a>
+                        <i class="fa-solid fa-magnifying-glass ms-2 text-white"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!--Hết header-->
+        <main class="main">
+            <div class="center1">
+                <form method="post">
+                    <table border="0" class="tbgh" align="center">
+                        <tr class="headtb">
+                           <th>Minh Họa</th>
+                           <th>Tên sản phẩm</th>
+                           <th>Đơn giá</th>
+                           <th>Số lượng</th>
+                           <th>Thành tiền</th>
+                           <th>Xóa</th>
+                        </tr>
+                        <tr>
+                            <td> <img class="minhhoahoa" src="images/minhhoa/hoahong.jpg" alt=""></td>
+                            <td>Hoa Hồng</td>
+                            <td>52000 vnd</td>
+                            <td><input aria-label="quantity" class="input-qty" max="50" min="0" name="" type="number" value="1"></td>
+                            <td>52000 vnd</td>
+                            <td><img class="bin" src="IMG2/bin.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td> <img class="minhhoahoa" src="images/minhhoa/hoatulip.jpg" alt=""></td>
+                            <td>Hoa Tulip</td>
+                            <td>52000 vnd</td>
+                            <td><input aria-label="quantity" class="input-qty" max="50" min="0" name="" type="number" value="1"></td>
+                            <td>52000 vnd</td>
+                            <td><img class="bin" src="IMG2/bin.png" alt=""></td>
+                         </tr>
+                         <tr>
+                            <td> <img class="minhhoahoa" src="images/minhhoa/hoalan.jpg" alt=""></td>
+                            <td>Hoa Lan</td>
+                            <td>52000 vnd</td>
+                            <td><input aria-label="quantity" class="input-qty" max="50" min="0" name="" type="number" value="1"></td>
+                            <td>52000 vnd</td>
+                            <td><img class="bin" src="IMG2/bin.png" alt=""></td>
+                        </tr>
+                     </table>
+
+                     <div class="tt">
+                        <input class="inputmakhuyenmai" type="text" placeholder="Nhập mã khuyến mãi">
+                        <a href="thanhtoan.html" class="buttonaccess">Thanh Toán</a>
+                     </div>
+                </form>
+            </div>
+        </main>
+        
+        <footer>
+            
+        </footer>
+    </body>
+</html>

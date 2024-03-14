@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+          background-color: black;
+        }
+        .logo {
+          background: rgb(112, 226, 71);
+          width: 100px;
+          border-radius: 5px;
+          position: relative;
+          animation: 2s infinite;
+        }
+        @keyframes name {
+          0% {
+            transform: scale(1);
+          }
+          50% {
+            transform: scale(0.92);
+          }
+          100% {
+            transform: scale(1);
+          }
+        }
+        .logo1 {
+          text-decoration: none;
+        }
+        span {
+          font-size: 20px;
+          display: block;
+          color: rgb(6, 18, 79);
+          text-align: center;
+          padding: 3px;
+          font-weight: 800;
+        }
+        span:first-child {
+          position: relative;
+        }
+        span:first-child::after {
+          content: "";
+          display: block;
+          width: 65%;
+          height: 1px;
+          position: absolute;
+          bottom: 0;
+          left: 16px;
+          background-color: rgb(39, 64, 12);
+          border-radius: 50%;
+        }
+      </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <a href="#" class="logo1"> <span>Kha</span> <span>B2004783</span> </a>
+        </div>
+      </header>
+</body>
+</html>
